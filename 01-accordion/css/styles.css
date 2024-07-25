@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:=regular,500,600);
+@import "./reset.css";
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	color: #64748b;
+}
+
+.content-spacing {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 15px;
+}
+
+.faqs__title {
+	margin-bottom: 20px;
+	font-weight: 600;
+	text-align: center;
+	font-size: 24px;
+}
+
+.accordion__tab {
+	background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.accordion__tab:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.accordion__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	width: 100%;
+	padding: 24px;
+	text-align: left;
+}
+
+.accordion__header:hover .accordion__title{
+	color: #334155;
+}
+
+.accordion__title {
+	font-weight: 600;
+	transition: color .3s ease-in-out;
+}
+
+._active .accordion__title {
+	color: #334155;
+}
+
+.accordion__icon {
+	transition: transform .3s ease-in-out;
+}
+
+._active .accordion__icon {
+	transform: rotate(-180deg);
+}
+
+.accordion__content { 
+	display: grid;
+	grid-template-rows: 0fr;
+	visibility: hidden;
+	padding: 0 24px;
+	transition: grid-template-rows .3s ease-in-out, visibility .3s ease-in-out, padding-bottom .3s ease-in-out;
+}
+
+.accordion__content > * {
+	overflow: hidden;
+}
+
+._active .accordion__content {
+	grid-template-rows: 1fr;
+	visibility: visible;
+	padding-bottom: 24px;
+}
+
+.accordion__text {
+	line-height: 1.4;
+}
