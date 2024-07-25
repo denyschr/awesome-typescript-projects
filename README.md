@@ -2,6 +2,12 @@
 
 Welcome to Awesome TypeScript Projects! This repository is a collection of various TypeScript implementations for common web components and utilities. The main goal of all these projects is to provide clear, efficient, and non-sentimental solutions so developers can easily understand, use, and adapt in their own projects.
 
+## Project Showcase
+
+|  #  | Project                             | Live Demo                                                                                    |
+| :-: | ------------------------------------| -------------------------------------------------------------------------------------------- |
+| 01 | [Accordion](01-accordion)   | [Live Demo](https://denyschr.github.io/awesome-typescript-projects/01-accordion/index.html)  |
+
 ## Getting Started
 
 To get started with these projects, follow these steps:
