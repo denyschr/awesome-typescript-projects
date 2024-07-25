@@ -1,4 +1,4 @@
-# Accordion
+# [Accordion](https://denyschr.github.io/awesome-typescript-projects/01-accordion/index.html)
 
 Simple and accessible accordion component with smooth animations using CSS grid. Accordions, in fact, are perfect for creating collapsible sections on your website, providing an intuitive and organized way to present information.
 
