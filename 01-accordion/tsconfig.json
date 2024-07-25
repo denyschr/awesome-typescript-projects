@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    /* Base */
+    "target": "es2022",
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "skipLibCheck": true,
+
+    /* Transpiling */
+    "outDir": "js",
+    "sourceMap": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
