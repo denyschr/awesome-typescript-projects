@@ -4,9 +4,9 @@ Welcome to Awesome TypeScript Projects! This repository is a collection of vario
 
 ## Project Showcase
 
-|  #  | Project                             | Live Demo                                                                                    |
-| :-: | ------------------------------------| -------------------------------------------------------------------------------------------- |
-| 01 | [Accordion](01-accordion)   | [Live Demo](https://denyschr.github.io/awesome-typescript-projects/01-accordion/index.html)  |
+|  #  | Project                   | Live Demo                                                                                   |
+| :-: | ------------------------- | ------------------------------------------------------------------------------------------- |
+| 01  | [Accordion](01-accordion) | [Live Demo](https://denyschr.github.io/awesome-typescript-projects/01-accordion/index.html) |
 
 ## Getting Started
 
